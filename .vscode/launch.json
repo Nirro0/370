@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "main",
+            "projectName": "370_6940a70c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "org.junit.platform.console.ConsoleLauncher",
+            "args": [
+                "--scan-classpath"
+            ],
+            "classpath": [
+                "${workspaceFolder}/lib/*",
+                "${workspaceFolder}/src"
+            ]
+        }
+    ]
+}
